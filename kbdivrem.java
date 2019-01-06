@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
-public class kbrem
+class kbrem
 {
 
 	public static void main(String[] args)
