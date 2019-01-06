@@ -18,11 +18,8 @@ class kbrem
 			else
 			{
 				s=s/2;
-				//System.out.println(s);
 			}
 		}
-		// TODO Auto-generated method stub
-
+		
 	}
-
 }
