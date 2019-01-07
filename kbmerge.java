@@ -8,6 +8,10 @@ class kbmerge {
 	  int n1=sc.nextInt();
 	  int n2=sc.nextInt();
 	  p=n2;
+		if(n2==0)
+		{
+			pow=10;
+		}
 	while(n2!=0)
 	{
 		n2=n2/10;
