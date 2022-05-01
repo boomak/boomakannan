@@ -16,7 +16,7 @@ public class Challenge extends PApplet {
     @Override
     public void settings() {
         super.settings();
-        size(WIDTH, HEIGHT); //sketch size
+        size(WIDTH, HEIGHT);
     }
 
 
@@ -31,4 +31,19 @@ public class Challenge extends PApplet {
         ellipse(posX, height, DIAMETER, DIAMETER);
 
     }
+
+    public void start(String[] args){
+        PApplet.main("Challenge", args);
+    }
+
+}
+
+public class OOPchallenge4balls{
+
+    public static void main(String[] args) {
+        FourBallsChallenge fourBallsChallenge = new FourBallsChallenge();
+        fourBallsChallenge.start(args);
+
+    }
+
 }
